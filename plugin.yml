@@ -1,0 +1,11 @@
+name: DrakonnasGods
+main: com.comze_instancelabs.gods.Main
+version: 1.0
+author: instancelabs
+permissions:
+  gods.create:
+    description: Gives access to get notifications from FoundDiamonds.
+commands:
+   gods:
+      description: Shows statistics for the provided player
+      usage: /gods
