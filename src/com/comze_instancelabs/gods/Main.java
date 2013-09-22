@@ -174,6 +174,7 @@ public class Main extends JavaPlugin implements Listener {
 					            event.getPlayer().addPotionEffect(speed, true);
 					            event.getPlayer().playEffect(event.getPlayer().getLocation(), Effect.POTION_BREAK, 5);
 				        		event.getPlayer().sendMessage("§f[§3DrakonnasGods§f] §cYou got " + getConfig().getInt(godname + ".xp") + " DR Points!");
+				        		getServer().broadcastMessage("§f[§3DrakonnasGods§f] " + event.getPlayer().getName() + " just prayed to " + godname + " and earned 40 DR Points!");
 			        		}else{
 			        			event.getPlayer().sendMessage("§f[§3DrakonnasGods§f] §cYou need to wait 24 hours between praying.. :/");
 			        		}	
